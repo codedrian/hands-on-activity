@@ -7,34 +7,129 @@
     <script type="text/javascript" src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="answer.css">
     <title>XML Lectures</title>
 </head>
 <body>
     <h1>XML Lectures</h1>
     <div class="side-bar">
         <div class="lectures"> 
-            <div class="item"><a href="#" onclick="showXml()"><i></i>What is XML?</a></div>
-            <div class="item"><a href="#" onclick="showSyntax()"><i></i>XML Usage</a></div>
-            <div class="item"><a href="#"><i class="third"></i>XML DOM</a></div>
-            <div class="item"><a href="#"><i class="fourt"></i>XML DOM Nodes</a></div>
-            <div class="item"><a href="#"><i class="fifth"></i>XML DOM - Node Tree</a></div>
-            <div class="item"><a href="#"><i class="fourth"></i>Levels of DOM </a></div>
-            <div class="item"><a href="#"><i class="fifth"></i>XML DOM Parser </a></div>
-            <div class="item"><a href="#"><i class="sixth"></i>XML DOM - Traversing </a></div>
-            <div class="item"><a href="#"><i class="seventh"></i>DOM - Parent Node</a></div>
-            <div class="item"><a href="#"><i class="nineth"></i>XML DOM - Accessing</a></div>
+            <div class="item"><a onclick="showXml()"><i></i>What is XML?</a></div>
+            <div class="item"><a onclick="showUsage()"><i></i>XML Usage</a></div>
+            <div class="item"><a onclick="showMarkUp()"><i></i>What is Markup?</a></div>
+            <div class="item"><a onclick="showXMLPL()"><i></i>Is XML a Programming Language?</a></div>
+            <div class="item"><a onclick="showSyntax()"><i></i>Syntax</a></div>
+            <div class="item"><a onclick="syntaxRules()"><i></i>Syntax Rules</a></div>
+            <div class="item"><a onclick="xmlDeclaration()"><i></i>XML Declaration</a></div>
+            <div class="item"><a onclick="showSyntaxRules()"><i></i>Syntax Rules for XML Declaration</a></div>
+            <div class="item"><a onclick="showTagsElements()"><i></i>Tags and Elements</a></div>
+            <div class="item"><a onclick="showXMLAtrributes()"><i></i>XML Attributes </a></div>
         </div>
     </div>
 
     <div class="answers">
         <div class="definition">
-            <div id="first"></div>
-            <div id="second"></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+           
+            <div id="first">
+                <p>XML stands for Extensible Markup Language. It
+                is a text-based markup language derived from
+                Standard Generalized Markup Language
+                (SGML).
+            </p>
+                <h3>T
+                    hree important characteristics of XML
+                </h3>
+                <ul>
+                    <li>XML is extensible.</li>
+                    <li>XML carries the data, does not present it.</li>
+                    <li>XML XML is a public standard.</li>
+                </ul>
+            </div><br>
+            
+            <div id="second">
+                <p>
+                    XML can work behind the scene to simplify the creation of
+                HTML documents for large web sites.
+                XML can be used to exchange the information between
+                organizations and systems.
+                XML can be used for offloading and reloading of databases.
+                XML can be used to store and arrange the data, which can
+                customize your data handling needs.
+                XML can easily be merged with style sheets to create almost
+                any desired output.
+                Virtually, any type of data can be expressed as an XML
+                document.
+            </p>
+            </div> <br>
+            <div id="third">
+                <ul>
+                    <li>XML is a markup language that defines set of rules for encoding
+                        documents in a format that is both human-readable and
+                        machine-readable.</li>
+                    <li>Markup is information added to a document that enhances its
+                        meaning in certain ways, in that it identifies the parts and how
+                        they relate to each other.</li>
+                </ul>
+            </div> <br>
+            <div id="fourth">
+                <p>
+                    XML does not qualify to be a programming language as it does not perform any
+                    computation or algorithms. It is usually stored
+                    in a simple text file and is processed by special
+                    software that is capable of interpreting XML.
+                </p>
+            </div> <br>
+
+            <div id="fifth">
+                <img src="./images/syntax.png" alt="XML Syntax">
+            </div> <br>
+
+            <div id="sixth">
+                <img src="./images/syntaxRules.png" alt="Syntax Rules">
+            </div> <br>
+
+            <div id="seventh">
+                <img src="./images/declaration.png" alt="">
+            </div> <br>
+
+            <div id="eighth">
+                <h3>Syntax Rules for XML Declaration</h3>
+                <ol>
+                    <li>The XML declaration is case sensitive and must begin
+                        with xml where xml is written in lower-case.
+                    </li>
+                    <li>
+                        If document contains XML declaration, then it strictly
+                        needs to be the first statement of the XML document.
+                    </li>
+                    <li>
+                        The XML declaration strictly needs be the first
+                        statement in the XML document.
+                    </li>
+                    <li>
+                        An HTTP protocol can override the value of encoding
+                         put in the XML declaration.
+                    </li>
+                </ol>
+            </div> <br>
+
+            <div id="nineth">
+                <ul>
+                    <li>An XML file is structured by several XML-elements, also
+                        called XML-nodes or XML-tags.</li>
+                    <li>The names of XML-elements are enclosed in triangular
+                        brackets < > as shown below −</li>
+                </ul>
+            </div> <br>
+
+            <div id="tenth">
+                <ul>
+                    <li>An attribute specifies a single property for the
+                        element, using a name/value pair. An XML-element can
+                        have one or more attributes.</li>
+                    
+                </ul>
+            </div>
+
             </div>
     </div>
 </body>

@@ -54,3 +54,44 @@ h1 {
     margin-right: 10px;
     
 }
+.answers {
+    margin-left: 400px;
+    margin-top: 100px;
+}
+h3{
+    text-align: center;
+}
+.answers .definition img{
+    width: 500px;
+    height: 300px;
+}
+#first {
+    display: none;
+}
+#second {
+    display: none;
+}
+#third {
+    display: none;
+}
+#fourth {
+    display: none;
+}
+#fifth {
+    display: none;
+}
+#sixth{
+    display: none;
+}
+#seventh {
+    display: none;
+}
+#eighth {
+    display: none;
+}
+#nineth {
+    display: none;
+}
+#tenth {
+    display: none;
+}
